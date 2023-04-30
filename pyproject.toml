@@ -8,7 +8,7 @@ dev = [
 
 [project]
 name = "pyghs"
-version = "0.1.0"
+version = "0.1.1"
 description = "Storage csv file in github repository."
 authors = [
     {name = "Chaoying", email = "chaoying2022@gmail.com"},

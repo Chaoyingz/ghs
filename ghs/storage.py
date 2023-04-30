@@ -16,7 +16,7 @@ class GHS:
         self._session = self._get_session(access_token)
 
     async def create(self, path: str, df: pd.DataFrame) -> None:
-        csv = df.to_csv(index=False)
+        csv = df.to_csv()
         payload = {
             "message": "Create",
             "content": base64.b64encode(csv.encode()).decode(),
@@ -48,7 +48,7 @@ class GHS:
                 await self.create(path, df)
                 return
             raise
-        csv = df.to_csv(index=False)
+        csv = df.to_csv()
         payload = {
             "message": "Update",
             "sha": sha,
