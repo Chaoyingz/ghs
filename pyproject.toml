@@ -8,7 +8,7 @@ dev = [
 
 [project]
 name = "pyghs"
-version = "0.1.1"
+version = "0.2.0"
 description = "Storage csv file in github repository."
 authors = [
     {name = "Chaoying", email = "chaoying2022@gmail.com"},
@@ -16,6 +16,8 @@ authors = [
 dependencies = [
     "aiohttp>=3.8.4",
     "pandas>=2.0.1",
+    "dynaconf>=3.1.12",
+    "requests>=2.29.0",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
