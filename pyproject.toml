@@ -8,7 +8,7 @@ dev = [
 
 [project]
 name = "pyghs"
-version = "0.2.2"
+version = "0.2.3"
 description = "Storage csv file in github repository."
 authors = [
     {name = "Chaoying", email = "chaoying2022@gmail.com"},
@@ -19,14 +19,12 @@ dependencies = [
     "dynaconf>=3.1.12",
     "requests>=2.29.0",
 ]
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 license = {text = "MIT"}
 readme = "README.md"
 keywords = ["github", "storage", "pandas"]
 classifiers = [
-    "Topic :: Software Development :: Build Tools",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
